@@ -9,7 +9,7 @@ a random password generator using HTML/CSS/Javascript
 
 
     ```md
-
+ ![image of uploaded project](assets/images/Screenshot%20(7).png)
     ```
 
 
