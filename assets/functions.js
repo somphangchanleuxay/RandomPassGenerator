@@ -11,6 +11,11 @@ function writePassword() {
     alert("Please enter a valid number greater than 8 for the password length no more than 128");
     return;
   }
+  if (isNaN(length) || length >=128) {
+    alert("Please enter a valid number greater than 8 for the password length no more than 128");
+    return;
+  }
+
 
   var useUppercase = confirm("Include uppercase letters?");
   var useLowercase = confirm("Include lowercase letters?");
